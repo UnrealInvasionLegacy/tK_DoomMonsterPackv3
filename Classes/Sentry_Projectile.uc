@@ -1,0 +1,31 @@
+class Sentry_Projectile extends Doom_Projectile;
+
+defaultproperties
+{
+     TrailClass=Class'tK_DoomMonsterPackv3.Sentry_ProjectileTrail'
+     ExplosionClass=Class'tK_DoomMonsterPackv3.Sentry_ProjectileExplosion'
+     Speed=1500.000000
+     MaxSpeed=3000.000000
+     Damage=10.000000
+     DamageRadius=20.000000
+     MomentumTransfer=3000.000000
+     MyDamageType=Class'tK_DoomMonsterPackv3.DamType_Sentry_Projectile'
+     ExplosionDecal=Class'XEffects.BulletDecal'
+     LightType=LT_Steady
+     LightEffect=LE_QuadraticNonIncidence
+     LightHue=28
+     LightSaturation=127
+     LightBrightness=169.000000
+     LightRadius=4.000000
+     DrawType=DT_StaticMesh
+     StaticMesh=StaticMesh'WeaponStaticMesh.FlakShell'
+     CullDistance=4000.000000
+     bDynamicLight=True
+     AmbientSound=Sound'tK_DoomMonsterPackv3.Imp.imp_fireball_flight_04'
+     LifeSpan=10.000000
+     DrawScale=0.200000
+     SoundVolume=255
+     SoundRadius=150.000000
+     CollisionRadius=1.000000
+     CollisionHeight=1.000000
+}

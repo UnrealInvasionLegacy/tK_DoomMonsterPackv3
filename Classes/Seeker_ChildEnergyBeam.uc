@@ -1,0 +1,33 @@
+class Seeker_ChildEnergyBeam extends xEmitter;
+
+defaultproperties
+{
+     mParticleType=PT_Beam
+     mStartParticles=2
+     mMaxParticles=2
+     mLifeRange(1)=0.000000
+     mRegenDist=60.000000
+     mSpinRange(1)=47299.492188
+     mSizeRange(0)=1.000000
+     mSizeRange(1)=0.000000
+     mColorRange(0)=(B=75,G=75,R=75)
+     mColorRange(1)=(B=0,G=0,R=0,A=0)
+     mAttenuate=False
+     mAttenKa=0.000000
+     mWaveFrequency=10.000000
+     mWaveAmplitude=10.000000
+     mWaveShift=100000.000000
+     mBendStrength=1.800000
+     mWaveLockEnd=True
+     LightType=LT_Steady
+     LightHue=17
+     LightSaturation=101
+     LightBrightness=176.000000
+     LightRadius=4.000000
+     bDynamicLight=True
+     bNetTemporary=False
+     bReplicateInstigator=True
+     RemoteRole=ROLE_SimulatedProxy
+     Skins(0)=FinalBlend'tK_DoomMonsterPackv3.Seeker.Seeker_EnergyEffect'
+     Style=STY_Additive
+}
